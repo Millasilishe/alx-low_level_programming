@@ -14,7 +14,7 @@ int _islower(int c)
 	{
 		success = 1;
 	}
-	if (c > 64 && c < 91)
+	else
 	{
 		success = 0;
 	}

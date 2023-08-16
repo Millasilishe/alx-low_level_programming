@@ -22,20 +22,16 @@ int main(void)
  */
 int sum_of_multiple(int n)
 {
-	int i = 0, mult3, mult5;
+	int i = 0;
 	int sum = 0;
 	/*int n = 1024;*/
 	while (i < n)
 	{
-		mult3 = i * 3;
-		mult5 = i * 5;
-		if (mult3 < n)
+		/*mult3 = i * 3;*/
+		/*mult5 = i * 5;*/
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum = sum + mult3;
-		}
-		if (mult5 < n)
-		{
-			sum = sum + mult5;
+			sum = sum + i;
 		}
 	i++;
 	}

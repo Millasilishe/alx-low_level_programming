@@ -7,7 +7,7 @@
  */
 void print_times_table(int n)
 {
-	int time , table, i;
+	int time, table, i;
 
 	if (n < 15 && n >= 0)
 	{
@@ -30,7 +30,7 @@ void print_times_table(int n)
 				}
 				printf("%d", i);
 			}
-                        printf("\n");
-                }     
-       }             
- }   
+			printf("\n");
+		}
+	}
+}

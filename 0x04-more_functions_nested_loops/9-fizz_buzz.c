@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 void Fizz_Buzz(int n);
 
@@ -16,7 +16,7 @@ int main(void)
 
 /**
  * Fizz_Buzz - Print Fizz, Buzz and FizzBuzz for multiples of 3, 5 and both
- * @n: Max number 
+ * @n: Max number
  */
 void Fizz_Buzz(int n)
 {

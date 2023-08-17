@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * most_numbers - Prints the numbers, from 0 to 14 ten time
+ * more_numbers - Prints the numbers, from 0 to 14 ten time
  */
 void more_numbers(void)
 {

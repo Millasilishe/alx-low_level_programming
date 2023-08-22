@@ -9,13 +9,13 @@
 void print_rev(char *s)
 {
 	char *p = s;
-	int length, i;
+	int length = 0, i;
 
 	while (*p != 0)
 	{
+		length++;
 		p++;
 	}
-	length = p - s;
 	p = s + length - 1;
 	for (i = 0; i <= length; i++)
 	{

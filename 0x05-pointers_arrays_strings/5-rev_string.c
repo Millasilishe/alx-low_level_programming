@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		size++;
 	}
-	for (i = 0; i > size; i++)
+	for (i = 0; i < size; i++)
 	{
 		size--;
 		array = s[i];

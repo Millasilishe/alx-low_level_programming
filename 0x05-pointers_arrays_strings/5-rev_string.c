@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_rev - Prints a string, in reverse followed by a new line, to stdout
+ * rev_string - Prints a string, in reverse
  * @s: a pointer point to a string
  *
  * Return: Nothing
@@ -11,7 +11,7 @@ void rev_string(char *s)
 {
 	char array = s[0];
 	int size = 0, i;
-	
+
 	while (s[size] != '\0')
 	{
 		size++;
